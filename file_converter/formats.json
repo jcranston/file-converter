@@ -1,8 +1,18 @@
 {
-    "input_formats": [
-
-    ],
-    "output_formats": [
-        
-    ]
+    "inputs": {
+        "image_formats": ["jpg", "jpeg", "png", "NEF"],
+        "video_formats": ["m4v", "psd", "mp4", "mov", "avi", "", "wmv", "mpg", "3gp"],
+        "audio_formats": ["apu", "au"],
+        "other_formats": ["db", "DS_STORE", "cxf", "php", "ini", "docx"]
+    },
+    "outputs": {
+        "external_software_formats": {
+            "image_formats": ["JPEG", "PNG", "TIFF", "JP2", "BMP", "PDF", "WEBP", "HEIC", "SVG", "SVG(B/W)", "PSD", "EPS", "ICO", "XBM", "XPM"],
+            "video_formats": ["MP4", "MOV", "MKV", "M4V", "AVI", "HEVC MP4", "HEVC MKV"]
+        },
+        "icloud_formats": {
+            "image_formats": ["jpg"],
+            "video_formats": ["mov"]
+        }
+    }
 }
